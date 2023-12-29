@@ -6,5 +6,7 @@ To better predict Bodily Injury Liability Insurance claim payments based on the 
 - [Introduction](#Introduction:)<br>
 - [Data Dictionary](#Data-Dictionary)
 
-Introduction:
+#Introduction:
 The training data consists of observations from years - 2005 to 2007.
+
+#Data Dictionary
