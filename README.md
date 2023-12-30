@@ -3,7 +3,7 @@ Goal of this activity:<br>
 To better predict Bodily Injury Liability Insurance claim payments based on the characteristics of the insured customer’s vehicle.
 
 ## Table of Contents
-- [Introduction](#-Introduction)<br>
+- [Introduction](#-Introduction:)<br>
 - [Data Dictionary](#-Data-Dictionary)
 
 ### Introduction:
