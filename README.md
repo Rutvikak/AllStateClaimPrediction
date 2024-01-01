@@ -1,4 +1,4 @@
-# All State Claim Prediction <br>
+# AllState Claim Prediction <br>
 Goal of this activity:<br>
 To better predict Bodily Injury Liability Insurance claim payments based on the characteristics of the insured customer’s vehicle.
 
@@ -53,10 +53,17 @@ To better predict Bodily Injury Liability Insurance claim payments based on the 
 - `Claim_Amount`: Non-negative real number, 99% zeros on the training set (numeric)
 
 ### Training and Testing Datasets:
-- For the testing and training purspose of the model, divided existing dataset into Training (80%) and Testing(20%) datasets. 
+- For the testing and training the model, divided the existing dataset into Training (80%) and Testing(20%) datasets. 
 - Training dataset contains 10547432 rows and 35 columns.
 - Testing dataset contains 2636858 rows and 35 columns.
-- Out of 35 columns 34 columns as independant and 1 column is dependant column. 
+- Out of 35 columns 34 columns as independant and 1 column is dependent column. 
 
-### Problem Statement and Solution:
+### Problem Statement:
+- Using a training dataset, create a model to predict vehicle claim payments by providing information about damaged vehicles. 
+
+### Solution: 
+- Linear regression is used for creating the model to understand the relationship between independent and dependent features.
+
+### Steps:
+- Check NULL and duplicate values
 - 
