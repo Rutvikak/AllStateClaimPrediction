@@ -62,8 +62,9 @@ To better predict Bodily Injury Liability Insurance claim payments based on the 
 - Using a training dataset, create a model to predict vehicle claim payments by providing information about damaged vehicles. 
 
 ### Solution: 
-- Linear regression is used for creating the model to understand the relationship between independent and dependent features.
+- The appropriate model type for predicting claim payments on the basis of characteristics of demaged vehicles is Linear regression.
 
-### Steps:
-- Check NULL and duplicate values
+### Steps for creating models:
+- Check and remove NULL and duplicate values.
+- Creation of dummy features for categorical features.
 - 
