@@ -57,3 +57,6 @@ To better predict Bodily Injury Liability Insurance claim payments based on the 
 - Training dataset contains 10547432 rows and 35 columns.
 - Testing dataset contains 2636858 rows and 35 columns.
 - Out of 35 columns 34 columns as independant and 1 column is dependant column. 
+
+### Problem Statement and Solution:
+- 
