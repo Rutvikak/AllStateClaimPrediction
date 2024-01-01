@@ -52,7 +52,7 @@ To better predict Bodily Injury Liability Insurance claim payments based on the 
 **Target:**  
 - `Claim_Amount`: Non-negative real number, 99% zeros on the training set (numeric)
 
-### Training and Testing Datasets
+### Training and Testing Datasets:
 - For the testing and training purspose of the model, divided existing dataset into Training (80%) and Testing(20%) datasets. 
 - Training dataset contains 10547432 rows and 35 columns.
 - Testing dataset contains 2636858 rows and 35 columns.
