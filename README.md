@@ -67,4 +67,5 @@ To better predict Bodily Injury Liability Insurance claim payments based on the 
 ### Steps for creating models:
 - Check and remove NULL and duplicate values.
 - Creation of dummy features for categorical features.
-- 
+- Check and remove multicollinearity among independent features.
+- Ordinary Least Squares (OLS) model from statsmodel api package will be used as base model.
