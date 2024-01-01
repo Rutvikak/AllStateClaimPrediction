@@ -48,4 +48,7 @@ The training data consists of observations from years - 2005 to 2007.
 - `NVVar4:` Continuous non-vehicle variable, mean 0 stdev 1 
 
 **Target:**  
-- `Claim_Amount`: Non-negative real number, 99% zeros on the training set 
+- `Claim_Amount`: Non-negative real number, 99% zeros on the training set
+
+### EDA
+
