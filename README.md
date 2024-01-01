@@ -19,8 +19,7 @@ The training data consists of observations from years - 2005 to 2007.
 - `Model_Year:` Model year of vehicle (not blinded) (categorical)
 - `Blind_Make:` Vehicle make (example: ACME, coded A) (categorical)
 - `Blind_Model:` Vehicle model (example: ACME Roadster, coded A.1) (categorical)
-- `Blind_Submodel:` Vehicle submodel (example: ACME Roadster LS, coded A.1.1).  For the base model--e.g. no suffix after the model name--submodel is coded as 0   
-   (categorical)
+- `Blind_Submodel:` Vehicle submodel (example: ACME Roadster LS, coded A.1.1).  For the base model--e.g. no suffix after the model name--submodel is coded as 0   (categorical)
 - `Cat1:` Categorical vehicle variable (categorical)
 - `Cat2:` Categorical vehicle variable (categorical)
 - `Cat3:` Categorical vehicle variable (categorical)
