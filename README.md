@@ -7,7 +7,8 @@ To better predict Bodily Injury Liability Insurance claim payments based on the 
 - [Data Dictionary](#-Data-Dictionary)
 
 ### Introduction:
-The training data consists of observations from years - 2005 to 2007.
+- The training data consists of observations from years - 2005 to 2007.
+- Data has 13184290 rows and 35 columns.
 
 ### Data Dictionary:
 **Variables:**   
@@ -48,7 +49,10 @@ The training data consists of observations from years - 2005 to 2007.
 - `NVVar4:` Continuous non-vehicle variable, mean 0 stdev 1  (numeric)
 
 **Target:**  
-- `Claim_Amount`: Non-negative real number, 99% zeros on the training set
+- `Claim_Amount`: Non-negative real number, 99% zeros on the training set (numeric)
 
-### EDA
-
+### Training and Testing Datasets
+- For the testing and training purspose of the model, divided existing dataset into Training (80%) and Testing(20%) datasets. 
+- Training dataset contains 10547432 rows and 35 columns.
+- Testing dataset contains 2636858 rows and 35 columns.
+- Out of 35 columns 34 columns as independant and 1 column is dependant column. 
