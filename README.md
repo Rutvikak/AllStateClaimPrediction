@@ -66,6 +66,7 @@ To better predict Bodily Injury Liability Insurance claim payments based on the 
 
 ### Solution: 
 - The appropriate model type for predicting claim payments on the basis of characteristics of demaged vehicles is Linear regression.
+- To check whether the Claim_Amount will be there or not, i.e. it will be Zero or more than Zero. In this case it becomes a logistic regression problem, so will be using Logistic Regression mode. 
 
 ### Steps for creating models:
 - Check and remove NULL and duplicate values.
