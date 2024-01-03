@@ -72,4 +72,11 @@ To better predict Bodily Injury Liability Insurance claim payments based on the 
 - Check and remove NULL and duplicate values.
 - Creation of dummy features for categorical features.
 - Check and remove multicollinearity among independent features.
-- Ordinary Least Squares (OLS) model from statsmodel api package will be used as base model.
+- Ordinary Least Squares (OLS) model from statsmodel api package will be used as base model, without feature engineering.
+- Performing feature engineering on base mode and finalising the features.
+- Using other models on filtered features and will compare these models.
+
+### Second approach: 
+- Changing the problem statement a bit, instead of predicting the claim amount will predict whether the claim amount will be Zero or more than Zero.
+- i.e. Converting this problem into logistinc regression. 
+- Changing dependent feature's value as 1="Claim amount is More than Zero" and 0="Claim amount is Zero"
