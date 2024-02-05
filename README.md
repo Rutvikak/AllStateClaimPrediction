@@ -69,10 +69,14 @@ To better predict Bodily Injury Liability Insurance claim payments based on the 
 - To check whether the Claim_Amount will be there or not, i.e. it will be Zero or more than Zero. In this case it becomes a logistic regression problem, so will be using Logistic Regression mode. 
 
 ### Steps for creating models:
-- Check and remove NULL and duplicate values.
+- Missing values and their impact on Target feature
+- All features with Numerical values and their distribution
+- All categorical features and their Cardinality
+- Checking outliers
+- Relation between independent and dependent features
 - Creation of dummy features for categorical features.
 - Check and remove multicollinearity among independent features.
-- LinearRegressor model from statsmodel api package will be used as base model, without feature engineering.
+- LinearRegressor model from sci-kit learn api package will be used as base model, without feature engineering.
 - Performing feature engineering on base mode and finalising the features.
 - Using other models on filtered features and will compare these models.
 
