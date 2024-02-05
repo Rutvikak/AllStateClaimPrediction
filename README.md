@@ -12,7 +12,7 @@ To better predict Bodily Injury Liability Insurance claim payments based on the 
 
 ### Introduction:
 - The training data consists of observations from years - 2005 to 2007.
-- Data has 13184290 rows and 35 columns.
+- Data has 95605 rows and 35 columns.
 
 ### Data Dictionary:
 **Variables:**   
@@ -57,8 +57,8 @@ To better predict Bodily Injury Liability Insurance claim payments based on the 
 
 ### Training and Testing Datasets:
 - For the testing and training the model, divided the existing dataset into Training (80%) and Testing(20%) datasets. 
-- Training dataset contains 10547432 rows and 35 columns.
-- Testing dataset contains 2636858 rows and 35 columns.
+- Training dataset contains 76237 rows and 35 columns.
+- Testing dataset contains 19060 rows and 35 columns.
 - Out of 35 columns 34 columns as independant and 1 column is dependent column. 
 
 ### Problem Statement:
